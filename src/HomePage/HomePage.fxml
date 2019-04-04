@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="vbox1" fx:id="vbox1" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePage.HomePageController">
+   <children>
+      <VBox id="vbox2" fx:id="vbox2" alignment="CENTER" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #F9BC3D;">
+         <children>
+            <ImageView id="imageview1" fx:id="imageview1" fitHeight="127.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <AnchorPane id="anchorpane1" fx:id="anchorpane1" prefHeight="560.0" prefWidth="720.0" style="-fx-background-color: F9BC3D;">
+         <children>
+            <VBox id="vbox3" fx:id="vbox3" alignment="CENTER" prefHeight="560.0" prefWidth="200.0" style="-fx-background-color: F9BC3D;">
+               <children>
+                  <JFXButton id="jfxbutton1" fx:id="jfxbutton1" buttonType="RAISED" onAction="#dashboardclick" prefWidth="150.0" ripplerFill="WHITE" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Dashboard">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="jfxbutton2" fx:id="jfxbutton2" buttonType="RAISED" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Attendance">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="jfxbutton3" fx:id="jfxbutton3" buttonType="RAISED" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Downloads">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="jfxbutton4" fx:id="jfxbutton4" buttonType="RAISED" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Timetable">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="jfxbutton5" fx:id="jfxbutton5" buttonType="RAISED" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Notice">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton id="jfxbutton5" fx:id="jfxbutton6" buttonType="RAISED" onAction="#logoutclick" prefWidth="150.0" style="-fx-background-color: transparent; -fx-border-width: 2px; -fx-border-color: white; -fx-border-radius: 20px; -fx-text-fill: white;" text="Logout">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <VBox id="vbox4" fx:id="vbox4" alignment="CENTER" layoutX="200.0" prefHeight="560.0" prefWidth="200.0" style="-fx-background-color: F9BC3D;">
+               <children>
+                  <Label id="label1" fx:id="label1" prefHeight="40.0" prefWidth="160.0" text="Student Name :" textFill="#5a5959">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label id="label2" fx:id="label2" prefHeight="40.0" prefWidth="160.0" text="Department :" textFill="#5a5959">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="label3" fx:id="label3" prefHeight="40.0" prefWidth="160.0" text="Semester :" textFill="#5a5959">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="label4" fx:id="label4" prefHeight="40.0" prefWidth="160.0" text="Student No :" textFill="#5a5959">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="label5" fx:id="label5" prefHeight="40.0" prefWidth="160.0" text="Parent No :" textFill="#5a5959">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label id="label6" fx:id="label6" prefHeight="40.0" prefWidth="160.0" text="Birthdate :" textFill="#5a5959">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vbox5" alignment="CENTER" layoutX="402.0" prefHeight="560.0" prefWidth="317.0" style="-fx-background-color: F9BC3D;">
+               <children>
+                  <Label id="label7" fx:id="label7" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="label8" fx:id="label8" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="label9" fx:id="label9" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="label10" fx:id="label10" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="label11" fx:id="label11" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="label12" fx:id="label12" prefHeight="40.0" prefWidth="300.0" text="Label" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+   </children>
+</VBox>
